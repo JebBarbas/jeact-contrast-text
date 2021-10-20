@@ -1,0 +1,44 @@
+{
+  "name": "@jeact/contrast-color",
+  "version": "1.0.0",
+  "description": "Simple function to get the contrast color for a text over some color",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "release": "standard-version",
+    "share": "git push --follow-tags origin main && npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JebBarbas/jeact-contrast-text.git"
+  },
+  "keywords": [
+    "jeact",
+    "color",
+    "contrast",
+    "black",
+    "white",
+    "colors"
+  ],
+  "author": "jebbarbas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JebBarbas/jeact-contrast-text/issues"
+  },
+  "homepage": "https://github.com/JebBarbas/jeact-contrast-text#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.11.1",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "babel-jest": "^27.3.0",
+    "eslint": "^8.0.1",
+    "jest": "^27.3.0",
+    "standard-version": "^9.3.2",
+    "typescript": "^4.4.4"
+  }
+}

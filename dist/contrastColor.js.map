@@ -1,0 +1,1 @@
+{"version":3,"file":"contrastColor.js","sourceRoot":"","sources":["../src/contrastColor.ts"],"names":[],"mappings":"AACA,OAAO,WAAW,MAAM,eAAe,CAAC;AAExC,MAAM,aAAa,GAAG,CAAC,KAAW,EAAQ,EAAE;IACxC,OAAO,WAAW,CAAC,KAAK,CAAC,IAAI,GAAG,CAAC,CAAC,CAAC,SAAS,CAAC,CAAC,CAAC,SAAS,CAAA;AAC5D,CAAC,CAAA;AAED,eAAe,aAAa,CAAA"}
