@@ -1,7 +1,7 @@
 import evaluate from './evaluate';
-const yiqContrast = (color) => {
-    const { red, green, blue } = evaluate(color);
-    const yiq = ((red * 299) + (green * 587) + (blue * 114)) / 1000;
+var yiqContrast = function (color) {
+    var _a = evaluate(color), red = _a.red, green = _a.green, blue = _a.blue;
+    var yiq = ((red * 299) + (green * 587) + (blue * 114)) / 1000;
     return yiq;
 };
 export default yiqContrast;

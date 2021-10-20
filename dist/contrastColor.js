@@ -1,5 +1,5 @@
 import yiqContrast from "./yiqContrast";
-const contrastColor = (color) => {
+var contrastColor = function (color) {
     return yiqContrast(color) >= 128 ? '#000000' : '#ffffff';
 };
 export default contrastColor;

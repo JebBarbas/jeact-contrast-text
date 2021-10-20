@@ -9,13 +9,13 @@ import luminance from './luminance';
  * @param echo Set to true if you are testing, otherwise, only set to true when yo want lo log the results
  * @returns The contrast ratio between 2 colors
  */
-const contrastRatio = (bgColor, fgColor) => {
+var contrastRatio = function (bgColor, fgColor) {
     // 
-    const bgLuminance = luminance(bgColor);
-    const fgLuminance = luminance(fgColor);
-    const maxL = Math.max(bgLuminance, fgLuminance);
-    const minL = Math.min(bgLuminance, fgLuminance);
-    const ratio = (maxL + 0.05) / (minL + 0.05);
+    var bgLuminance = luminance(bgColor);
+    var fgLuminance = luminance(fgColor);
+    var maxL = Math.max(bgLuminance, fgLuminance);
+    var minL = Math.min(bgLuminance, fgLuminance);
+    var ratio = (maxL + 0.05) / (minL + 0.05);
     return ratio;
 };
 export default contrastRatio;
