@@ -18,4 +18,3 @@ var luminance = function (color) {
     return luminance;
 };
 export default luminance;
-//# sourceMappingURL=luminance.js.map

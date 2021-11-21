@@ -7,7 +7,9 @@
     "build": "tsc",
     "test": "jest",
     "release": "standard-version",
-    "share": "git push --follow-tags origin main && npm publish --access public"
+    "share": "git push --follow-tags origin main && npm publish --access public",
+    "alpha": "standard-version --prerelease alpha",
+    "share-alpha": "git push --follow-tags origin main && npm publish --tag alpha --access public"
   },
   "repository": {
     "type": "git",

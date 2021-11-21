@@ -1,6 +1,5 @@
-import yiqContrast from "./yiqContrast";
+import yiqColor from "./yiqColor";
 var contrastColor = function (color) {
-    return yiqContrast(color) >= 128 ? '#000000' : '#ffffff';
+    return yiqColor(color);
 };
 export default contrastColor;
-//# sourceMappingURL=contrastColor.js.map

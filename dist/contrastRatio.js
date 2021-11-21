@@ -19,4 +19,3 @@ var contrastRatio = function (bgColor, fgColor) {
     return ratio;
 };
 export default contrastRatio;
-//# sourceMappingURL=contrastRatio.js.map

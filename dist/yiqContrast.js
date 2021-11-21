@@ -5,4 +5,3 @@ var yiqContrast = function (color) {
     return yiq;
 };
 export default yiqContrast;
-//# sourceMappingURL=yiqContrast.js.map

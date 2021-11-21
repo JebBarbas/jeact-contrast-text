@@ -28,4 +28,3 @@ var evaluate = function (color) {
     return { red: red, green: green, blue: blue };
 };
 export default evaluate;
-//# sourceMappingURL=evaluate.js.map

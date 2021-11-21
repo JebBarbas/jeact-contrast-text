@@ -1,0 +1,9 @@
+node_modules/
+src/
+tests/
+
+.eslintrc.json
+.gitignore
+.travis.yml
+babel.config.json
+tsconfig.json

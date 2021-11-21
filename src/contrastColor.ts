@@ -1,8 +1,8 @@
 import type { Color } from './types'
-import yiqContrast from "./yiqContrast";
+import yiqColor from "./yiqColor";
 
 const contrastColor = (color:Color):Color => {
-    return yiqContrast(color) >= 128 ? '#000000' : '#ffffff'
+    return yiqColor(color)   
 }
 
 export default contrastColor
