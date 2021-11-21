@@ -1,6 +1,6 @@
 {
   "name": "@jeact/contrast-color",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Simple function to get the contrast color for a text over some color",
   "main": "dist/index.js",
   "scripts": {
